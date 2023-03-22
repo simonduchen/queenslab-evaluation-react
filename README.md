@@ -31,6 +31,7 @@ Make sure you:
 * ⚡ Consider performance versus readability
 * 🚫 Don't modify input and return types.
 
+You can find the assignments in `/src/algorithms/README.md`
 
 ## Part 2: Credit Card Component
 
@@ -44,3 +45,5 @@ Make sure you:
 * 🧪 Include tests!
 * 🤔 Consider what can be validated/detected without making a request to the payment server.
 * 💥 Focus on the user experience from a functionality point of view.
+
+You can find the assignments in `/src/credit-card/README.md`

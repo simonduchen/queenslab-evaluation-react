@@ -1,4 +1,4 @@
-[![Get started!](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/exploringtheunknown/queenslab-evaluation-react)
+[![Get started!](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/exploringtheunknown/queenslab-evaluation-react)
 
 # QueensLab Evaluation React
 
@@ -14,8 +14,8 @@ Remember, this is your chance to showcase your skills and impress us with your w
 The assignments are designed to run on StackBlitz, but you are of course allowed to run them locally in your favourite editor.
 
 1. Read this README in full.
-2. Click the "Get Started" button at the top of this README, this will fork this repository and open it in StackBlitz.
-3. Connect it to your own Github account.
+2. Fork this repository to your own Github account.
+2. Click the "Get Started" button at the top of this README to open it in StackBlitz.
 4. Either use StackBlitz or work locally on your fork. The assignments are located in the `algorithms` and `credit-card` directories.
 5. When you're ready to submit, run `npm run submit` and follow the instructions prompted.
 

@@ -1,11 +1,5 @@
 {
   "semi": true,
-  "overrides": [
-    {
-      "files": "*.ts",
-      "options": {
-        "singleQuote": true
-      }
-    }
-  ]
+  "singleQuote": true,
+  "jsxSingleQuote": true
 }

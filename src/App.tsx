@@ -6,7 +6,7 @@ function App() {
   const [cardHolder, setCardHolder] = useState('');
 
   return (
-    <div className="App">
+    <div className='App'>
       <CreditCard cardNumber={cardNumber} cardHolder={cardHolder} />
     </div>
   );

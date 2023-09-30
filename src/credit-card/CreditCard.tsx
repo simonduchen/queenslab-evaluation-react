@@ -1,12 +1,10 @@
 type CreditCardProps = {
-  cardNumber: string
-  cardHolder: string
-}
+  cardNumber: string;
+  cardHolder: string;
+};
 
-const CreditCard = ({ cardNumber, cardHolder }: CreditCardProps) => {
-  return (
-    <></>
-  )
+function CreditCard({ cardNumber, cardHolder }: CreditCardProps) {
+  return <div />;
 }
 
 export default CreditCard;

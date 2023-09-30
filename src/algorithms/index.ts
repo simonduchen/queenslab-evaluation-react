@@ -1,12 +1,5 @@
-const removeIdenticalLetters = (str: string): string => {
-  return "";
-}
+const removeIdenticalLetters = (str: string): string => '';
 
-const maximumOddSum = (numbers: number[]): number => {
-  return 0;
-}
+const maximumOddSum = (numbers: number[]): number => 0;
 
-export {
-  removeIdenticalLetters,
-  maximumOddSum
-}
+export { removeIdenticalLetters, maximumOddSum };

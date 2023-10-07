@@ -1,0 +1,24 @@
+.button {
+  padding: var(--space-base);
+  border-radius: var(--space-small);
+  border: none
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+    
+}
+
+.button[color="primary"] {
+  background-color: var(--color-primary);
+}
+
+.button[color="secondary"] {
+  background-color: var(--color-secondary);
+}
+
+.button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

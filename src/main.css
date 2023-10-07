@@ -1,0 +1,9 @@
+/* Just to center it in this code test environment */
+/* stylelint-disable-next-line selector-class-pattern -- App is a key name in React */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}

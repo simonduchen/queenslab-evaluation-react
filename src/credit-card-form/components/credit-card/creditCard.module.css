@@ -1,0 +1,81 @@
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 236px;
+  height: 136px;
+  background-image: linear-gradient(to right, #000 0%, #434343 100%);
+  border-radius: 8px;
+  padding: var(--space-base);
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  color: #fff;
+}
+
+@media screen and (width >= 768px) {
+  .credit-card {
+    margin-top: var(--space-xlarge)
+  }
+}
+
+.credit-card-header {
+  flex:1;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.credit-card-logo {
+  display: flex;
+}
+
+.credit-card-cvv {
+  display: flex;
+  flex-direction: column;
+  width:90px;
+  margin-top: var(--space-small)
+}
+
+.credit-card-cvv-label {
+  color:#888;
+  font-size: var(--font-size-small);
+}
+
+.credit-card-number-wrapper {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit-card-number {
+  width: 216px;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: var(--font-size-large);
+  text-shadow: 0 0 10px rgb(0 0 0 / 30%)
+}
+
+.credit-card-details {
+  flex:1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-card-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:10px;
+}
+
+.credit-card-expiry-date-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit-card-expiry-date {
+  width: 64px;
+}

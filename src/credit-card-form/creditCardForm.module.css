@@ -1,0 +1,120 @@
+.credit-card-form-container {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: var(--space-large);
+  align-items: center;
+}
+
+@media screen and (width >= 768px) {
+  .credit-card-form-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: var(--space-xlarge);
+    align-items: flex-start;
+  }
+}
+
+.row-flex-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--space-base);
+}
+
+.col-flex-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: var(--space-base);
+  align-items: center
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--space-small);
+  width: 300px;
+}
+
+.input-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.date-inputs {
+  width: 150px;
+}
+
+.error-message {
+  color: var(--color-error);
+  font-weight: bold;
+  font-size: var(--font-size-small);
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.small-width {
+  width: 64px;
+}
+
+.flex-auto {
+  flex:auto
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.col-flex-container.align-top {
+  align-items: baseline;
+}
+
+.col-flex-container.small-gap {
+  column-gap: var(--space-small);
+}
+
+.row-flex-container.small-gap {
+  row-gap: var(--space-small);
+}
+
+h1 {
+  font-size: var(--font-size-xlarge);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  /* Font variables */
+  --font-size-small: 12px;
+  --font-size-base: 14px;
+  --font-size-large: 16px;
+  --font-size-xlarge: 24px;
+  --font-family-base: 'Poppins', sans-serif;
+    
+  /* Color variables */
+  --color-primary: hsl(299deg 96% 91%);
+  --color-secondary: hsl(124deg 91% 78%);
+  --color-background: hsl(234deg 34% 11%);
+  --color-error: hsl(357deg 80% 54%);
+
+  /* Space variables */
+  --space-small: 4px;
+  --space-base: 8px;
+  --space-large: 16px;
+  --space-xlarge: 32px;
+
+  /* Set font defaults */
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+}
